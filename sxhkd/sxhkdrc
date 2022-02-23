@@ -39,6 +39,9 @@ super + {w,m,x,r,s,i}
 super + shift + {f,w,e}
 	{pcmanfm,brave,geany}
 
+super + shift + d
+	thunarD
+
 # Terminal Apps
 ctrl + alt + {v,n,r,h,b}
 	alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e {vim,nvim,ranger,htop,bpytop}
